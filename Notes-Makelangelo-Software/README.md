@@ -183,3 +183,11 @@ Caused by: java.lang.NullPointerException: Cannot invoke "com.marginallyclever.m
 
 ```
 
+```
+cat ~/.java/.userPrefs/DrawBot/Language/prefs.xml 
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<map MAP_XML_VERSION="1.0">
+<entry key="language" value="Français"/>
+</map>
+```
