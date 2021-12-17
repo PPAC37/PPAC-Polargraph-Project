@@ -136,6 +136,13 @@ Effacer le fichier de config qui spécifie d'utiliser un fichier de langue qui n
 ```
 rm ~/.java/.userPrefs/DrawBot/Language/prefs.xml 
 ```
+```
+java -jar ./Makelangelo-7.28.2-with-dependencies.jar 
+log dir=/home/q6/Downloads/i_polar/Makelangelo-7.28.2/
+déc. 17, 2021 3:20:00 AM java.util.prefs.FileSystemPreferences$6 run
+WARNING: Prefs file removed in background /home/q6/.java/.userPrefs/DrawBot/Language/prefs.xml
+```
+
 ou le remettre a sa valeur par defaut 
 ```
 cat ~/.java/.userPrefs/DrawBot/Language/prefs.xml 
