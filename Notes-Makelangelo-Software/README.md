@@ -149,6 +149,7 @@ cat ~/.java/.userPrefs/DrawBot/Language/prefs.xml
 ```
 
 ### Problème
+Juste le splash screen qui saffiche sans disparaitre et si en console texte on a :
 
 ```
 java -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel -jar Makelangelo-7.28.2-with-dependencies.jar 
