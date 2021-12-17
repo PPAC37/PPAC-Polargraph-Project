@@ -1,9 +1,9 @@
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
-Name=Makelangelo-7.24.5
-GenericName=Makelangelo-7.24.5
-Comment=Makelangelo-7.24.5
+Name=Makelangelo-7.28.2
+GenericName=Makelangelo-7.28.2
+Comment=Makelangelo-7.28.2
 Exec=java -jar "./Makelangelo-7.28.2-with-dependencies.jar"
 Path=/home/q6/Downloads/Makelangelo-7.28.2
 Terminal=true
