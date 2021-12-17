@@ -131,6 +131,14 @@ com.sun.java.swing.plaf.motif.MotifLookAndFeel
 com.sun.java.swing.plaf.gtk.GTKLookAndFeel
 ```
 
+```
+java -jar Makelangelo-7.30.2-with-dependencies.jar
+java -Dswing.systemlaf=javax.swing.plaf.metal.MetalLookAndFeel -jar Makelangelo-7.30.2-with-dependencies.jar
+java -Dswing.systemlaf=javax.swing.plaf.nimbus.NimbusLookAndFeel -jar Makelangelo-7.30.2-with-dependencies.jar
+java -Dswing.systemlaf=com.sun.java.swing.plaf.motif.MotifLookAndFeel -jar Makelangelo-7.30.2-with-dependencies.jar
+java -Dswing.systemlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel -jar Makelangelo-7.30.2-with-dependencies.jar
+```
+
 
 
 ## Là c'est .... car j'ai joué en mode dev a créer un fichier de traduction et la version 7.28.2 ne là pas ...
