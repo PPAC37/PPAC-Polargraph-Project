@@ -5,7 +5,11 @@
 
 TODO : Mettre en forme synthétique https://github.com/MarginallyClever/Makelangelo-software/issues/365#issuecomment-996154780
 
+https://docs.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
 
+
+KO : java -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel -jar Makelangelo-7.28.2-with-dependencies.jar 
+(car c'est le -Dswing.systemlaf qu'il faut changer et que com.sun.java.swing.plaf.gtk.GTKLookAndFeel pose problème :) )
 
 ### Solution 
 
