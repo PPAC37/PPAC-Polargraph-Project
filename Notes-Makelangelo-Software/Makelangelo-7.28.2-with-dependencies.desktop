@@ -1,0 +1,18 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=Makelangelo-7.24.5
+GenericName=Makelangelo-7.24.5
+Comment=Makelangelo-7.24.5
+Exec=java -jar "./Makelangelo-7.28.2-with-dependencies.jar"
+Path=/home/q6/Downloads/Makelangelo-7.28.2
+Terminal=true
+Type=Application
+Icon=openjdk-6
+MimeType=application/x-java-archive;application/java-archive;application/x-jar;application/x-cbt;
+NoDisplay=false
+Categories=System;
+
+Name[fr_FR]=Makelangelo-7.28.2-with-dependencies.desktop
+
+
