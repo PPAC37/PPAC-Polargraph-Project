@@ -136,6 +136,17 @@ Effacer le fichier de config qui spécifie d'utiliser un fichier de langue qui n
 ```
 rm ~/.java/.userPrefs/DrawBot/Language/prefs.xml 
 ```
+ou le remettre a sa valeur par defaut 
+```
+cat ~/.java/.userPrefs/DrawBot/Language/prefs.xml 
+```
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<map MAP_XML_VERSION="1.0">
+<entry key="language" value="English"/>
+</map>
+```
 
 ### Problème
 
