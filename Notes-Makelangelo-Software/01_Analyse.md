@@ -54,5 +54,17 @@ Quelle implication de pouvir generer a la fois du en mode de coordonné relative
 
 
 
+Référence
+
+
+Quand on voie se qui existe pour traceusse de découpe, imprimante 3D et cnc c'est vite trés complexe.
+
+Ex 
+
+https://vevor.fr/products/machine-de-traceur-de-coupe-de-vinyle-traceur-plotter-de-decoupe-720-mm-128k-2m -> applicatif https://www.google.com/search?q=SIGNMASTER
+
+CNC laser -> LaserGRBL / CNCjs / CAMOAtics? / ...
+
+FDM -> Ultimaker Cura / PrusaSlicer / IdeaMaker / ...
 
 
