@@ -21,6 +21,8 @@ par le commit
 [a83707433afa26baf691731d674411b0ec5f7a37](https://github.com/MarginallyClever/Makelangelo-software/commit/a83707433afa26baf691731d674411b0ec5f7a37)
 donc dans la nightly [makelangelo-nightly-20211220-a83707.jar](https://github.com/MarginallyClever/Makelangelo-software/releases/download/Nightly/makelangelo-nightly-20211220-a83707.jar)
  et ne devrais plus poser problèmes dans la prochaine release.
+ 
+ il y a aussi maintenet l'argument de commande `-nolf` pour ne pas activer le changemetn de LookAndFeel.
 
 
 
