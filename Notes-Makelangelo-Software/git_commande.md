@@ -1,7 +1,9 @@
 
 # Basic 
 
-https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/
+(fr) https://www.atlassian.com/fr/git/tutorials/undoing-changes/git-reset
+
+(en) https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/
 
 ```
 export AUserEmailForGit=...@....com
@@ -69,23 +71,18 @@ Identity added: /home/q6/.ssh/id_ed25519 (...)
 
 
 ## Creer un depot local ou distant
-### 
-…or create a new repository on the command line
-
+### …or create a new repository on the command line
+```
 echo "# Impressions-3D-Notes-en-vrac" >> README.md
-
 git init 
-
 git add README.md
-
 git commit -m "first commit"
-
 git branch -M main
-
+```
+```
 git remote add origin git@github.com:PPAC37/Impressions-3D-Notes-en-vrac.git
-
 git push -u origin main
-
+```
 ## Cloner un depot distant
 ```
 export localParentDir=.
@@ -102,19 +99,19 @@ git status
 git commit -m "First commit"
 ```
 
-# Uncommit Changes you just made to your Git Repo
-# Remove the most recent commit# Commit again!
+## Uncommit Changes you just made to your Git Repo
+### Remove the most recent commit# Commit again!
 ```
 git reset HEAD~1
 ```
 
-# Add a remote origin and Push:
+## Add a remote origin and Push:
 
-# sets the new remote
+### sets the new remote
 ```
 git remote add origin remote_repository_URL
 ```
-# List the remote connections you have to other repositories.
+### List the remote connections you have to other repositories.
 ```
 git remote -v
 ```
@@ -126,9 +123,32 @@ git push
 git push -u origin master # pushes changes to origin
 ```
 
+## récupérer une branche d'un autre depost (fork) d'un autre
 https://stackoverflow.com/questions/9153598/how-do-i-fetch-a-branch-on-someone-elses-fork-on-github
 ```
 git remote add theirusername git@github.com:theirusername/reponame.git
 git fetch theirusername
 git checkout -b mynamefortheirbranch theirusername/theirbranch
+```
+
+## Usage de la commande git
+```
+git
+```
+```
+usage : git remote [-v | --verbose]
+   ou : git remote add [-t <branche>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <nom> <url>
+   ou : git remote rename <ancienne> <nouvelle>
+   ou : git remote remove <nom>
+   ou : git remote set-head <nom> (-a | --auto | -d | --delete | <branche>)
+   ou : git remote [-v | --verbose] show [-n] <nom>
+   ou : git remote prune [-n | --dry-run] <nom>
+   ou : git remote [-v | --verbose] update [-p | --prune] [(<groupe> | <distante>)...]
+   ou : git remote set-branches [--add] <nom> <branche>...
+   ou : git remote get-url [--push] [--all] <nom>
+   ou : git remote set-url [--push] <nom> <nouvelle-URL> [<ancienne-URL>]
+   ou : git remote set-url --add <nom> <nouvelle-URL>
+   ou : git remote set-url --delete <nom> <url>
+
+    -v, --verbose         être verbeux : doit être placé avant une sous-commande
 ```
