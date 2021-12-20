@@ -15,6 +15,9 @@ KO : java -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel -jar Mak
 
 java -Dswing.systemlaf=javax.swing.pl.metal.MetalLookAndFeel -jar Makelangelo-7.28.2-with-dependencies.jar
 
+Edit : 20/12/2021
+A etait resolut https://github.com/MarginallyClever/Makelangelo-software/issues/365#issuecomment-997490316 par le commit https://github.com/MarginallyClever/Makelangelo-software/commit/9996a26eb2d9f13e2ddb478ec5b549f2bd4ac639 et donc ne devrais plus poser problèmes dans la prochaine release.
+
 ### BUG ?
 
 ```
