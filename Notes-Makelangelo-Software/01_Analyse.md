@@ -56,6 +56,7 @@ Quelle implication de pouvir generer a la fois du en mode de coordonné relative
 
 Référence
 
+https://marlinfw.org/meta/gcode/ ( A FAire lister les commandes actuellement utilisable ( G28,G90, G91, M280, M17, ...) de celle  eventuellement utilisable (? M280, M300, M600, M808, M810 , M118, M281, ...M16 ... M18/M84, ...M20/21/22/23/24 / M42, M43 M92, M108 M118 )et celle complétement hors sujet (ex chauffe /HotEnd / extrudeur offset... ) du fait qu'il n'y a pas d'extreudeur, ou de thermistance, ou de resistance chauffanet.
 
 Quand on voie se qui existe pour traceusse de découpe, imprimante 3D et cnc c'est vite trés complexe.
 
